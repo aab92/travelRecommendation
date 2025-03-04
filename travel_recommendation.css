@@ -107,7 +107,7 @@ nav {
 }
 #intro {
   font-size: 25px;
-  width: 50%;
+  width: 80%;
   color: white;
   display: flex;
   flex-direction:column;
@@ -118,4 +118,22 @@ nav {
   display: flex;
   flex-direction:column;
   margin-top: 70%;
+}
+#team {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  margin-left: 10%
+  width: 70vw;
+  justify-content: space-around;
+}
+.team_meber {
+  border: 3px solid gray;
+  display: flex;
+  border-radius: 26px;
+  text-align: center;
+  margin: 10%;
+  padding: 30px;
+  font-size: 20px;
+  box-shadow: 0 3px 10px gray;
 }
