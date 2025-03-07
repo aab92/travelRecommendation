@@ -6,12 +6,12 @@
         "cities": [
           {
             "name": "Sydney, Australia",
-            "imageUrl": "enter_your_image_for_sydney.jpg",
+            "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.SSlQmNy6Hp3dRwd3b15ASAHaE7%26pid%3DApi&f=1&ipt=6652b3fc0c4c74c0c6d6f11726b8d34f7688f0dc2519bcb5d50c710e7f5f50a2&ipo=images",
             "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
           },
           {
             "name": "Melbourne, Australia",
-            "imageUrl": "enter_your_image_for_melbourne.jpg",
+            "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.AVoriGxYS7E7e4rbt2qGygHaFi%26pid%3DApi&f=1&ipt=08f67fe48a395806fd9b549973ab3815f7eb80cc9ad25bc24cd4a2e8ef33c358&ipo=images",
             "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
           }
         ]
@@ -22,12 +22,12 @@
         "cities": [
           {
             "name": "Tokyo, Japan",
-            "imageUrl": "enter_your_image_for_tokyo.jpg",
+            "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.xZiLk7RRtUqNegjIrSW1zAHaE8%26pid%3DApi&f=1&ipt=0ff71da1d4390aba91d159f8b8f0bd2281c59ab6e0dc2c0de127180ff3bdddd5&ipo=images",
             "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
           },
           {
             "name": "Kyoto, Japan",
-            "imageUrl": "enter_your_image_for_kyoto.jpg",
+            "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.av5QTRU0g5CrcWi3RVKttQHaE7%26pid%3DApi&f=1&ipt=2d1bc64a82520d3bf386460078e80053167a00ec2592dfdbf41bbec953b2b88d&ipo=images",
             "description": "Known for its historic temples, gardens, and traditional tea houses."
           }
         ]
@@ -38,12 +38,12 @@
         "cities": [
           {
             "name": "Rio de Janeiro, Brazil",
-            "imageUrl": "enter_your_image_for_rio.jpg",
+            "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.P7ntD2d49e8x6392DOYkbAHaE8%26pid%3DApi&f=1&ipt=77020947d6910cfa8e1a3f43775faf2af384ceebcde3bbc8197440378521a3c4&ipo=images",
             "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
           },
           {
             "name": "São Paulo, Brazil",
-            "imageUrl": "enter_your_image_for_sao-paulo.jpg",
+            "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.NYqzf1-RxP5sDXtcw9KFjgHaFj%26pid%3DApi&f=1&ipt=ab2c2cae4122e3c9bada3801d20595ba33ac248e0bd4c13a69cc9d951fd1a896&ipo=images",
             "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
           }
         ]
