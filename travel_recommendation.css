@@ -82,10 +82,9 @@ nav {
     word-wrap: break-word;
   }
 #result{
-  height: 400px;
-  width: 500px;
   display: flex;
   align-items: center;
+  width: 100%;
   justify-content: space-around;
   flex-direction: column;
 }
@@ -104,11 +103,24 @@ nav {
   background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tripsavvy.com%2Fthmb%2Fo2hgYE3EovWkMUvwiwXOAOLnKVs%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2Fcityscape-from-pier-66-in-downtown-seattle--washington-state--usa-717164411-59e2464f685fbe00114080f5.jpg&f=1&nofb=1&ipt=c9c6d5f25bffa7ef6f4df57d005418f0a23028fca8bddc08e21723610da44249&ipo=images')
 }
 #home_main_div h1 {
-  margin-top: 100px;
+  padding-top: 300px;
 }
 #intro {
   font-size: 25px;
-  width: 80%;
+  width: 90%;
+  heigth: 500px;
+  color: white;
+  display: flex;
+  flex-direction:row;
+  margin-left: 10%
+  margin-top: 0%
+  flex-grow: 4;
+  justify-content: space-around;
+}
+#intro_general {
+  font-size: 25px;
+  width: 60%;
+  height: 800px;
   color: white;
   display: flex;
   flex-direction:column;
