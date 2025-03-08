@@ -37,7 +37,7 @@ function showResult() {
         });
       } else if (user_input === "countries") {
         data.countries.forEach( (country) => {
-          resultElement.innerHTML += `<h2>${country.name}</h2>`;
+          //resultElement.innerHTML += `<h2>${country.name}</h2>`;
           country.cities.forEach( (city) => {
             resultElement.innerHTML += '<div class="result_entry">';
             resultElement.innerHTML += `<img src="${city.imageUrl}"/>`;
