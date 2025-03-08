@@ -55,4 +55,9 @@ function showResult() {
     });
 }
 
+function clearResult() {
+  resultElement.innerHTML = "";
+}
+
 btnSearch.addEventListener('click', showResult);
+btnClear.addEventListener('click', clearResult);
