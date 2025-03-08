@@ -1,6 +1,7 @@
 const resultElement = document.getElementById('result');
 
 function showResult() {
+  resultElement.innerHTML = "";
   user_input = document.getElementById('searchInput').value.toLowerCase();
   if (user_input.includes("beach")) {
     user_input = "beaches";
@@ -19,7 +20,7 @@ function showResult() {
       if (user_input === "beaches") {
         data.beaches.forEach( (beach) => {
           // TODO
-          resultElement.innerHTML = '<div id="result_entry">';
+          resultElement.innerHTML += '<div id="result_entry">';
           resultElement.innerHTML += `<img src="${beach.imageUrl}"/>`;
           resultElement.innerHTML += '</div>';
           /*for (const condition in conditionsCount) {
