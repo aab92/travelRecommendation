@@ -12,7 +12,7 @@ function showResult() {
     user_input = "countries";
   }
   
-  fetch('travel_recommendation_api.json')
+  fetch('travel_recommendation_api.json');
   //fetch('https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-JS0101EN-SkillsNetwork/travel1.json')
     .then(response => response.json())
     .then(data => {
