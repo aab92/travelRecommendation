@@ -22,6 +22,9 @@ function showResult() {
           // TODO
           resultElement.innerHTML += '<div id="result_entry">';
           resultElement.innerHTML += `<img src="${beach.imageUrl}"/>`;
+          resultElement.innerHTML += `<h2>${beach.name}</h2>`;
+          resultElement.innerHTML += `<p>${beach.description}</p>`;
+          resultElement.innerHTML += `<img src="${beach.imageUrl}"/>`;
           resultElement.innerHTML += '</div>';
           /*for (const condition in conditionsCount) {
             resultElement.innerHTML += `${condition}: ${conditionsCount[condition]}<br>`;
