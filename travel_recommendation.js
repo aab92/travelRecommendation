@@ -19,26 +19,33 @@ function showResult() {
     .then(data => {
       if (user_input === "beaches") {
         data.beaches.forEach( (beach) => {
-          // TODO
           resultElement.innerHTML += '<div class="result_entry">';
           resultElement.innerHTML += `<img src="${beach.imageUrl}"/>`;
           resultElement.innerHTML += `<h2>${beach.name}</h2>`;
           resultElement.innerHTML += `<p>${beach.description}</p>`;
           resultElement.innerHTML += '</div>';
-          /*for (const condition in conditionsCount) {
-            resultElement.innerHTML += `${condition}: ${conditionsCount[condition]}<br>`;
-          }*/
           console.log(`found beach : ${beach.name.toLowerCase()}`);
         });
       } else if (user_input === "temples") {
         data.temples.forEach( (temple) => {
-          // TODO
+          resultElement.innerHTML += '<div class="result_entry">';
+          resultElement.innerHTML += `<img src="${temple.imageUrl}"/>`;
+          resultElement.innerHTML += `<h2>${temple.name}</h2>`;
+          resultElement.innerHTML += `<p>${temple.description}</p>`;
+          resultElement.innerHTML += '</div>';
           console.log(`found temple : ${temple.name.toLowerCase()}`);
         });
       } else if (user_input === "countries") {
         data.countries.forEach( (country) => {
-          // TODO
-          console.log(`found country : ${country.name.toLowerCase()}`);
+          resultElement.innerHTML += `<h2>${country.name}</h2>`;
+          country.cities.forEach( (city) => {
+            resultElement.innerHTML += '<div class="result_entry">';
+            resultElement.innerHTML += `<img src="${city.imageUrl}"/>`;
+            resultElement.innerHTML += `<h3>${city.name}</h3>`;
+            resultElement.innerHTML += `<p>${city.description}</p>`;
+            resultElement.innerHTML += '</div>';
+            console.log(`found country : ${country.name.toLowerCase()}`);
+          });
         });
       }
   
